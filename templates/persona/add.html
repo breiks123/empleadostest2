@@ -10,9 +10,9 @@
 
 <div class="grid-container">
     <div class="grid-x">
-        <h1 class="cell">Registrar empelado</h1>
+        <h1 class="cell">Registrar empleado</h1>
         <form class="cell grid-x grid-margin-x" method="POST" enctype="multipart/form-data">{% csrf_token %}
-
+          
             <div class="medium-6 cell">
                 <label>Nombres:
                   {{form.first_name}}

@@ -8,6 +8,7 @@ app_name = "departamento_app"
 urlpatterns = [
     path(
         'departamento-lista/',
+        
         views.DepartamentoListView.as_view(),
         name='departamento_list'),
     path(
